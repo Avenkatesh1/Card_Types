@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500&display=swap"); */
 body {
   margin: 0;
   background-color: #1a1a1a;
-  color: #ffffffdd;
+  color: #ffffff;
   position: relative;
   overflow: hidden;
   font-family: "Inter", sans-serif;
@@ -25,7 +25,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  color: #ffffffdd;
+  color: #0b0808dd;
   padding-left: 16px;
 }
 .content-place {
@@ -46,7 +46,7 @@ body {
   width: 30px;
   height: 5px;
   border-radius: 99px;
-  background-color: #ffffffdd;
+  background-color: #ffffff;
 }
 .details {
   z-index: 22;
@@ -242,6 +242,6 @@ nav > div:last-child > .active:after {
   top: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #fff;
+  /* background-color: #fff; */
   z-index: 100;
 }
